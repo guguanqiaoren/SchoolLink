@@ -387,3 +387,51 @@ nav a.active{
     font-size:16px;
 
 }
+
+/* ---------- Splash ---------- */
+
+.splash{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:100vh;
+
+    background:white;
+
+    transition:opacity .3s;
+
+}
+
+.splash-container{
+
+    text-align:center;
+
+}
+
+.logo{
+
+    width:120px;
+
+    margin-bottom:20px;
+
+}
+
+.splash h1{
+
+    font-size:36px;
+
+    color:#2F5F88;
+
+    margin:0;
+
+}
+
+.fade{
+
+    opacity:0;
+
+}

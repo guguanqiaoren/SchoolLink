@@ -2,190 +2,42 @@
 <html lang="ja">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>School Link</title>
+<meta charset="UTF-8">
 
-    <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>School Link</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
-<body>
+<body class="splash">
 
-<header>
+<div class="splash-container">
 
-    <div class="profile">
+    <img src="images/logo.png" class="logo">
 
-        <img src="images/user.png" alt="プロフィール">
+    <h1>School Link</h1>
 
-    </div>
+</div>
 
-    <div class="title">
+<script>
 
-        <h1>School Link</h1>
+setTimeout(() => {
 
-        <p>こんにちは！○○さん</p>
+    document.body.classList.add("fade");
 
-    </div>
+},1200);
 
-</header>
+setTimeout(() => {
 
-<main>
+    window.location.href="home.html";
 
-    <section class="greeting">
-        <h2>こんにちは！○○さん</h2>
-    </section>
+},1500);
 
-    <section class="recommend">
-
-    <h3>オススメQuest</h3>
-
-    <div class="quest-card">
-
-        <div class="quest-image">
-            🌱
-        </div>
-
-        <div class="quest-text">
-
-            <h4>昼休みをもっと楽しくしたい！</h4>
-
-            <p>
-                昼休みにみんなで楽しめるイベントを企画しよう！
-            </p>
-
-            <button>
-                詳しく見る
-            </button>
-
-        </div>
-
-    </div>
-
-</section>
-
-   <section class="projects">
-
-    <h3>進行中のプロジェクト</h3>
-
-    <div class="project-list">
-
-        <div class="project-card">
-
-            <div class="project-image">🎲</div>
-
-            <h4>ボードゲーム会</h4>
-
-            <p>現在4人参加中</p>
-
-        </div>
-
-        <div class="project-card">
-
-            <div class="project-image">🌱</div>
-
-            <h4>花壇づくり</h4>
-
-            <p>現在6人参加中</p>
-
-        </div>
-
-        <div class="project-card">
-
-            <div class="project-image">📚</div>
-
-            <h4>読書イベント</h4>
-
-            <p>現在3人参加中</p>
-
-        </div>
-
-        <div class="project-card">
-
-         <div class="project-image">🎵</div>
-
-         <h4>音楽ライブ</h4>
-
-         <p>現在5人参加中</p>
-
-        </div>
-
-    </div>
-
-</section>
-
-<section class="menu">
-
-    <h3>できること</h3>
-
-    <div class="menu-grid">
-
-        <a href="pages/post.html" class="menu-card">
-            📝
-            <p>Questを投稿</p>
-        </a>
-
-        <a href="pages/recruit.html" class="menu-card">
-            👥
-            <p>仲間を集める</p>
-        </a>
-
-        <a href="pages/discussion.html" class="menu-card">
-            💬
-            <p>意見を交換</p>
-        </a>
-
-        <a href="pages/vote.html" class="menu-card">
-            📊
-            <p>投票・アンケート</p>
-        </a>
-
-        <a href="pages/record.html" class="menu-card">
-            📒
-            <p>活動を記録</p>
-        </a>
-
-        <a href="pages/connect.html" class="menu-card">
-            🏫
-            <p>先生・地域</p>
-        </a>
-
-    </div>
-
-</section>
-
-</main>
-
-<nav>
-
-    <a href="index.html" class="active">
-        <span>🏠</span>
-        <small>ホーム</small>
-    </a>
-
-    <a href="pages/search.html">
-        <span>🔍</span>
-        <small>探す</small>
-    </a>
-
-    <a href="pages/post.html">
-        <span>➕</span>
-        <small>投稿</small>
-    </a>
-
-    <a href="pages/notice.html">
-        <span>🔔</span>
-        <small>通知</small>
-    </a>
-
-    <a href="pages/mypage.html">
-        <span>👤</span>
-        <small>マイページ</small>
-    </a>
-
-</nav>
-
-<script src="script.js"></script>
+</script>
 
 </body>
 
