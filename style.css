@@ -522,3 +522,44 @@ nav a.active{
     transform:scale(.98);
 
 }
+/* 投稿完了 */
+
+.success-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    margin-top:40px;
+
+    text-align:center;
+
+    box-shadow:0 3px 12px rgba(0,0,0,.15);
+
+}
+
+.success-icon{
+
+    font-size:70px;
+
+    margin-bottom:20px;
+
+}
+
+.success-card h2{
+
+    color:#4A90E2;
+
+    margin-bottom:15px;
+
+}
+
+.success-card p{
+
+    color:#666;
+
+    margin-bottom:30px;
+
+}
