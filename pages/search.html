@@ -29,21 +29,74 @@
 
  <main>
 
-  <section>
+    <!-- 検索バー -->
+    <section class="search-box">
+    <input id="searchInput" type="text" placeholder="募集を検索">    </section>
 
-  <div class="form-card">
+    <!-- カテゴリー -->
+    <section class="category">
+     <button class="active" data-category="全部">全部</button>
+     <button data-category="勉強">勉強</button>
+     <button data-category="スポーツ">スポーツ</button>
+     <button data-category="イベント">イベント</button>
+     <button data-category="趣味">趣味</button>
+    </section>
 
-   <h2>人気のQuest</h2>
+    <!-- 募集一覧 -->
+    <section class="recruit-list">
 
-   <p>・昼休みをもっと楽しくしたい！</p>
+        <article class="recruit-card" data-category="勉強">
+            <h3>📚 数学Ⅱを教えてください</h3>
+            <p>高校2年の数学で分からない問題があります。30分ほど教えてくださる方を募集しています。</p>
 
-   <p>・校内清掃プロジェクト</p>
+            <div class="info">
+                <span>👤 テストユーザーA</span>
+                <span>📍 図書室</span>
+            </div>
 
-   <p>・文化祭を盛り上げよう！</p>
+            <div class="info">
+                <span>🕒 今日16:30</span>
+                <span>👥 2 / 5人</span>
+            </div>
 
-   </div>
+            <span class="tag">#勉強</span>
+        </article>
 
-  </section>
+        <article class="recruit-card" data-category="スポーツ">
+            <h3>🏀 放課後にバスケしませんか？</h3>
+            <p>初心者歓迎です。みんなで楽しく運動しましょう！</p>
+
+            <div class="info">
+                <span>👤 サンプル利用者B</span>
+                <span>📍 体育館</span>
+            </div>
+
+            <div class="info">
+                <span>🕒 金曜17:00</span>
+                <span>👥 5 / 10人</span>
+            </div>
+
+            <span class="tag">#スポーツ</span>
+        </article>
+
+        <article class="recruit-card" data-category="趣味">
+            <h3>🎮 ゲーム交流会</h3>
+            <p>昼休みにゲーム好き同士で交流しませんか？</p>
+
+            <div class="info">
+                <span>👤 User01</span>
+                <span>📍 ラウンジ</span>
+            </div>
+
+            <div class="info">
+                <span>🕒 昼休み</span>
+                <span>👥 3 / 6人</span>
+            </div>
+
+            <span class="tag">#趣味</span>
+        </article>
+
+    </section>
 
  </main>
 
@@ -75,6 +128,8 @@
      </a>
 
  </nav>
+
+ <script src="../js/search.js"></script>
 
 </body>
 
